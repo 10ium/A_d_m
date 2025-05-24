@@ -1,8 +1,6 @@
 name: Generic App Updater
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # نیمه شب (00:00)
   workflow_dispatch: # امکان اجرای دستی
 
 jobs:
